@@ -19,48 +19,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera página web</title>
-    <style>
-        body {
-              background-color: black;
-              color: white;
-        }
-        img {
-            width: 200px;
-        }
-        header {
-            display: flex;
-        }
-        nav {
-            /* Las medidas de width pueden ser:
-                en pixeles: 100px 
-                en porcentajes: 100%
-                con relación al tamaño de la pantalla: 100vh */
-            width: 100%;
-        }
-        ul {
-            /* Esta propiedad modifica el adorno del lado izquierdo de las listas.
-            Si ponemos como valor none, obligaremos a la lista a no tener adornos */
-            list-style: none;
-
-            /* Estas dos propiedades serán explicadas mas adelante */
-            display: flex;
-            flex-direction: row;
-
-            /* Le indicamos que se picisione a la derecha, equivalente al alinear 
-            a la derecha de Microsoft Word o similares; */
-            float: right;
-        }
-
-        a {
-            color: white;
-            /* Modificamos el decorado de un texto, si tiene el valor none, le estamos indicando
-            que no tendrá decoraciones */
-            text-decoration: none;
-            /* Le agregamos un margen a la izquierda de 10 pixeles */
-            margin-left: 10px;
-        }
-    </style>
-    </head>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
     <body style="background-color: blue;">
         <!-- La etiqueta header será la cabecera visual de nuestro sitio web. -->
         <header>
