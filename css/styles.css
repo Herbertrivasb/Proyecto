@@ -37,3 +37,7 @@ a {
   /* Le agregamos un margen a la izquierda de 10 pixeles */
   margin-left: 10px;
 }
+@font-face {
+  font-family: Roboto;
+  src: url('../fonts/Roboto-Regular.ttf);
+}
