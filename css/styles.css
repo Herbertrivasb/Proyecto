@@ -2,8 +2,11 @@ body {
     background-color: black;
     color: white;
 }
-img {
+img#logo {
   width: 200px;
+}
+.t-50{
+  width:50%;
 }
 header {
   display: flex;
@@ -39,9 +42,9 @@ a {
 }
 @font-face {
   font-family: Roboto;
-  src: url('../fonts/Roboto-Regular.ttf);
+  src: url('../fonts/Roboto-Regular.ttf;')
 }
 @font-face {
   font-family: Balimoon ;
-  src: url('../fonts/Balimoon-Regular.otf;
+  src: url('/fonts/Balimoon-Regular.otf;')
 }
