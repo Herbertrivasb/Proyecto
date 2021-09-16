@@ -1,34 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Dando estilo a tablas</title>
-    <link rel="stylesheet" href="tabla.css">
+    <meta charset="utf-8">
+    <title>tabla comparativa entre Superheroes</title>
+    </head> 
+    <style type="text/css">
+
+        table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+    } 
+
+    th,td {
+        padding: 15px;
+    }
+    </style>
+    <body>
+         <h1>tabla comparativa entre superherores de DC</h1>
+        <table style="width: 100%;">
+        <tr>
+            <th>
+                Superheroes
+            </th>
+            <th>
+                Desde
+            </th>
+        <tr> 
+           <td>Superman</td>
+           <td>Superfuerza</td>
+        </tr>
+        <tr>
+           <td>Batman</td>
+           <td>Super Inteligencia</td>
+        </tr>
+        <tr>
+           <td>Flash</td>
+           <td>Super velocidad</td>
+        </tr>
+    </table>
 </head>
 <body>
-    <div id="main-container">
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Descripción</th><th>Batman</th><th>Superman</th>
-                </tr>
-            </thead>
-
-            <tr>
-                <td>Inteligente</td><td>Fuerte</td>
-            </tr>
-            <tr>
-                <td>Agil</td><td>Indestructible</td>
-            </tr>
-            <tr>
-                <td>Millonario</td><td>Alienigena</td>
-            </tr>
-        </table>
-    </div>
 </body>
 </html>
-
 
 
     
