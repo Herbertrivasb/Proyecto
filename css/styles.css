@@ -50,8 +50,8 @@ a {
 }
 article {
       text-align: center;
-      margin: 32px auto;
-      width: 80%;
+      /* margin: 32px auto; */
+     /* width: 80%; */
 }
 .column img {
        margin-top: 8px;
@@ -71,4 +71,36 @@ article {
 }
 footer {
   text-align: center;
+}
+div#slider {
+  background-image: url('../images/godzilla-2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 160px);
+  animation: changegojira 5s infinite;
+  animation-delay: 0.3s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+@keyframes changegojira {
+  0% {
+    background-image: url('../images/10.jpeg');
+  }
+
+  25% {
+    background-image: url('../images/11.jpg');
+  }
+
+  50% {
+    background-image: url('../images/12.jpg');
+  }
+
+  75% {
+    background-image: url('../images/13.jpg');
+  }
+
+  100% {
+    background-image: url('../images/14.jpg');
+  }
 }
