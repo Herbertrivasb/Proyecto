@@ -1,0 +1,16 @@
+@font-face {
+    font-family: SFPprodisplay;
+    src: url('../Examen_Parcial_1/SFPRODISPLAYREGULAR.OTF');
+}
+body {
+    color: F0F2F5;
+    font-family: Arial;
+    margin: 0%;
+    padding: 0%;
+}
+main {
+    width: 960px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
