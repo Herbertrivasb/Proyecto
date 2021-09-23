@@ -1,3 +1,7 @@
-Algoritmo Hola Mundo
-Escribir "Hola Mundo"
+Algoritmo  HolaMundo
+	nombre = "Herbert"
+	numero1= 15
+	numero2= 69
+	suma= numero1 + numero2
+	Escribir suma
 FinAlgoritmo
