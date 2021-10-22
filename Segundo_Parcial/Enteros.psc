@@ -2,7 +2,7 @@ Algoritmo Enteros
 	Definir numero Como Real;
 	Leer numero;
 	Definir numeroEntero Como Entero;
-	numeroEntero<-(Entero)+(numero)*10-33-6;
+	numeroEntero = redon (numero);
 	Escribir numeroEntero
 	
 FinAlgoritmo
