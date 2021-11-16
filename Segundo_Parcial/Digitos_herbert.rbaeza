@@ -1,0 +1,22 @@
+Algoritmo DIGITOS
+	// No modifiques el codigo que se te proporciona para iniciar.
+	// Valor: 40%
+	Leer n
+	longitudm = Longitud(n)
+	Para i = 1 Hasta longitudm Hacer
+		Escribir Subcadena(n,i,i)
+		Escribir "El numero es:"
+		Si longitudm / 5 = 0 Entonces
+			P1 = longitudm + 1
+		SiNo
+			Escribir "-1"
+		FinSi
+		Si longitudm * 5 = 0 Entonces
+			Escribir "P"
+		SiNo
+			Escribir "NP"
+		FinSi
+	FinPara
+	
+FinAlgoritmo
+
